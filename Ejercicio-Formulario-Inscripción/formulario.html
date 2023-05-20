@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/logo.png" style="width: 10px;">
+    <title>Formulario de inscripcion</title>
+</head>
+<body>
+    <header>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imagenes/encabezado2.jpg">
+    <hr>
+        </header>
+    <br>
+    <br>
+    <br>
+
+
+    <section>
+        <h1><b><u>FORMULARIO DE INSCRIPCIÓN CURSO DESARROLLO WEB</u></b></h1>
+        <p>Terminos y condiciones para participar del programa:<br>Podrán participar de Mar del Plata Programa todas las personas mayores de 18 años, con secundario completo, residentes dentro del partido de General Pueyrredon.</p>
+        <br>
+        <br>
+        <form>
+            <label for="Nombre y apellido"><u>Nombre y apellido:</u></label>
+            <input type="text" required maxlength="30" id="Nombre y apellido" name="">
+            <br>
+            <br>
+            <label for="Genero"><u>Género:</u>&nbsp;&nbsp;&nbsp;</label>
+            <select id="Genero"name="Genero">
+                <option>Femenino</option>
+                <option>Masculino</option>
+                <option>No Binario</option>
+                <option>Prefiero no responder</option>
+            </select>           
+            <br>
+            <br>
+            <label for="Fecha de nacimiento"><u>Fecha de nacimiento:</u></label>
+            <input type="date" id="Fecha de nacimiento" max="2005-01-01" name="">
+            <br>
+            <br>
+            <label for="Nacionalidad"><u>Nacionalidad</u></label>
+            <input type="text" id="Nacionalidad" name="">
+            <br>
+            <br>
+            <label for="Dirección"><u>Dirección:</u></label>
+            <input type="text" required maxlength="40" id="Dirección" name="">
+            <br>
+            <br>
+            <label for="Teléfono"><u>Teléfono:</u></label>
+            <input type="tel" required maxlength="30" id="Teléfono" name="">
+            <br>
+            <br>
+            <label for="Correo electrónico"><u>Correo electrónico:</u></label>
+            <input type="email" required maxlength="100" id="Correo electrónico" name="">
+            <br>
+            <br>
+            <button type="reset">Resetear</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4> 1. Nivel de estudios alcanzado</h4>
+            <input type="checkbox" name="Respuesta 1" Value="Primario completo">
+            <label for="Respuesta 1">Primario completo</label>
+            <input type="checkbox" name="Respuesta 1" Value="Secundario completo">
+            <label for="Respuesta 1">Secundario completo</label>
+            <input type="checkbox" name="Respuesta 1" Value="Terciario completo">
+            <label for="Respuesta 1">Terciario completo</label>
+            <input type="checkbox" name="Respuesta 1" value="Universitario completo">
+            <label for="Respuesta 1">Universitario completo</label>
+
+            <h4> 2. ¿Posee trabajo actualmente?</h4>
+            <input type="radio" name="Respuesta 2" value="Si">
+            <label for="Respuesta 2">Si</label> 
+            <input type="radio" name="Respuesta 2" value="No" checked>
+            <label for="Respuesta 2">No</label>
+            <br>
+            <h4> 3. ¿Tenes conociemientos previos sobre Desarrollo Web? </h4>
+            <input type="radio" name="Respuesta 3" value="Si">
+            <label for="Respuesta 3">Si</label> 
+            <input type="radio" name="Respuesta 3" value="No" checked>
+            <label for="Respuesta 3">No</label>
+            <br>
+            <h4> 4. Si tu respuesta fue afirmativa, detallá cuáles son tus conocimientos:</h4>
+            <textarea name="Respuesta sobre conocimientos" rows="8" cols="62"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+
+            
+
+
+
+
+
+
+
+        </form>
+        
+
+
+
+
+
+
+
+    </section>
+    
+</body>
+</html>
