@@ -1,2 +1,2 @@
-# Ejercicio-curso-tabla
+# Ejercicios-Curso-HTML
 ejercicio tabla curso
